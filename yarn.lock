@@ -5,8 +5,95 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
+"@openzeppelin/contracts-upgradeable@npm:5.2.0":
+  version: 5.2.0
+  resolution: "@openzeppelin/contracts-upgradeable@npm:5.2.0"
+  peerDependencies:
+    "@openzeppelin/contracts": 5.2.0
+  checksum: 10c0/fd26cff80d0a6b502625eb46f14b43e91ffad94a22b8745ff0edf6ab76924fd61773a629b5a42af1741f621fd7eb620cb03e596b21ba23024c4f2b132dc843b6
+  languageName: node
+  linkType: hard
+
+"@openzeppelin/contracts-upgradeable@npm:^5.3.0":
+  version: 5.3.0
+  resolution: "@openzeppelin/contracts-upgradeable@npm:5.3.0"
+  peerDependencies:
+    "@openzeppelin/contracts": 5.3.0
+  checksum: 10c0/aba3a1903d689a603dda5e021f698e8d7b035b8d469712e8755393e2013297076a88fbc79f20ab1354e69d142f29939ab5d9e310204f79d42ec99eef08f61135
+  languageName: node
+  linkType: hard
+
+"@openzeppelin/contracts@npm:5.2.0":
+  version: 5.2.0
+  resolution: "@openzeppelin/contracts@npm:5.2.0"
+  checksum: 10c0/6e2d8c6daaeb8e111d49a82c30997a6c5d4e512338b55500db7fd4340f29c1cbf35f9dcfa0dbc672e417bc84e99f5441a105cb585cd4680ad70cbcf9a24094fc
+  languageName: node
+  linkType: hard
+
+"@openzeppelin/contracts@npm:^5.3.0":
+  version: 5.3.0
+  resolution: "@openzeppelin/contracts@npm:5.3.0"
+  checksum: 10c0/b8a2d97413c24635c92de4b2a1188fa58ab252515aff38eabce4fa66bd3d8ae1649010d17fccaeb4e266bf8314c8bd92757fedca97bf643b6b98e11dea3fa83d
+  languageName: node
+  linkType: hard
+
+"@story-protocol/protocol-core@https://github.com/storyprotocol/protocol-core-v1":
+  version: v1.1.0
+  resolution: "@story-protocol/protocol-core@https://github.com/storyprotocol/protocol-core-v1.git#commit=294c47b0b41d577d2c7c0f8f708038114e613d82"
+  dependencies:
+    "@openzeppelin/contracts": "npm:5.2.0"
+    "@openzeppelin/contracts-upgradeable": "npm:5.2.0"
+    erc6551: "npm:^0.3.1"
+    solady: "npm:^0.0.281"
+  checksum: 10c0/626d3de0f30b766872ad397511028e244ca7f725bdb2dd60775a566af6abf1c8f0fef1cf9408c88f39d723bf0e27a10ce76c5bf18d622dc080c32552067add4d
+  languageName: node
+  linkType: hard
+
+"ds-test@https://github.com/dapphub/ds-test":
+  version: 1.0.0
+  resolution: "ds-test@https://github.com/dapphub/ds-test.git#commit=e282159d5170298eb2455a6c05280ab5a73a4ef0"
+  checksum: 10c0/585e15a2b8ff4993b2c338b7edae1af13de407e37ca511868e0c9f788e39fe1f9102301f1b3eb90f04f272b000cd1c540355b571d578dc8945f6f0fff07ed896
+  languageName: node
+  linkType: hard
+
+"erc6551@npm:^0.3.1":
+  version: 0.3.1
+  resolution: "erc6551@npm:0.3.1"
+  checksum: 10c0/2a2ac7c9c7658225183f9a0edd96027e1418f6b2c4d1ed06550bf5ff14c7a3cacdcc10c164084ce7bf43104853e7f168c3a7e17c1eed1e9792fa2217c66d2376
+  languageName: node
+  linkType: hard
+
+"forge-std@github:foundry-rs/forge-std#v1.7.6":
+  version: 1.7.6
+  resolution: "forge-std@https://github.com/foundry-rs/forge-std.git#commit=ae570fec082bfe1c1f45b0acca4a2b4f84d345ce"
+  checksum: 10c0/d1184e67889fdfedb272d550302988fc0da4a962e78000755acf002bba6d13687593db4f09d8ae48087adc27d84fb22de8eb0ea2fefdaafb2478272a73852472
+  languageName: node
+  linkType: hard
+
 "sobro@workspace:.":
   version: 0.0.0-use.local
   resolution: "sobro@workspace:."
+  dependencies:
+    "@openzeppelin/contracts": "npm:^5.3.0"
+    "@openzeppelin/contracts-upgradeable": "npm:^5.3.0"
+    "@story-protocol/protocol-core": "https://github.com/storyprotocol/protocol-core-v1"
+    ds-test: "https://github.com/dapphub/ds-test"
+    erc6551: "npm:^0.3.1"
+    forge-std: "github:foundry-rs/forge-std#v1.7.6"
+    solady: "npm:^0.1.18"
   languageName: unknown
   linkType: soft
+
+"solady@npm:^0.0.281":
+  version: 0.0.281
+  resolution: "solady@npm:0.0.281"
+  checksum: 10c0/39eb5200cd5b198ebafc3d4c55adbc544fb48b73dc198c038dbc6cbc944c6dad7d22ae2886ee3f76b06ffd78e65c7ce70e0ea66123de080eb657c03dc521f94a
+  languageName: node
+  linkType: hard
+
+"solady@npm:^0.1.18":
+  version: 0.1.18
+  resolution: "solady@npm:0.1.18"
+  checksum: 10c0/cbf087b146083fbe23625e1d6da0e4581444642f1806cc7f5c7ce77c236821f49fd012cd238553732d465c751b9a95551f306c9b220cafdafe7da6de63fe26d4
+  languageName: node
+  linkType: hard
